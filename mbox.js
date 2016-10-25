@@ -1,8 +1,5 @@
 const {EventEmitter} = require('events')
 
-const EOF = new Error('Empty Read')
-
-
 class Mbox extends EventEmitter {
 	constructor(file, fs) {
 		super()
