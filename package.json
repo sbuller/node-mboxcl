@@ -1,0 +1,23 @@
+{
+  "name": "mboxcl",
+  "version": "1.0.0",
+  "description": "Content-Length aware mbox reader",
+  "main": "mbox.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sbuller/node-mboxcl.git"
+  },
+  "keywords": [
+    "mbox",
+    "content-length"
+  ],
+  "author": "Stefan Buller",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sbuller/node-mboxcl/issues"
+  },
+  "homepage": "https://github.com/sbuller/node-mboxcl#readme"
+}
