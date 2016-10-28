@@ -14,6 +14,8 @@ class Mbox extends EventEmitter {
 		this.on('end', ()=>this.done = true)
 
 		if (typeof file === 'number') {
+			this.fd = file
+			file = undefined
 			setImmediate(()=>this.checkMagic())
 		} else {
 			this.open(file)
