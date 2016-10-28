@@ -1,6 +1,6 @@
 {
   "name": "mboxcl",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Content-Length aware mbox reader",
   "main": "mbox.js",
   "scripts": {
